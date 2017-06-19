@@ -16,7 +16,7 @@ library
   exposed-modules:     MailchimpSimple, Utils.Types, Utils.Logger
   -- other-modules:       
   other-extensions:    OverloadedStrings, DeriveGeneric
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && <5.0
                      , http-conduit >=2.2
                      , http-types >=0.9
                      , transformers >=0.4
